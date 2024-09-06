@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/cart.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <main id="cart">
+        <h1>Shopping Cart</h1>
+        <div id="cartSummary">
+            <p>Total: $<span id="totalPrice">0</span></p>
+            <form action="checkout.html">
+                <button id="checkoutButton">Proceed to Checkout</button>
+            </form>
+        </div>
+        <div id="cartItems">
+            <!-- Cart items will be dynamically inserted here -->
+        </div>
+
+    </main>
+    <script src="scripts/cart.js"></script>
+</body>
+
+</html>
