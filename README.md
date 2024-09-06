@@ -8,4 +8,4 @@ You can now navigate to other pages from there.
 
 Note: the code is well structured and has many comments to explain itself, it doesn’t need a specific explanation.
 
-Link to the live demo: https://abu-bakr-mohamed.github.io/MAIM-Training-Second-Project-E-Commerce
+Link to the live demo: https://abu-bakr-mohamed.github.io/MAIM-Training-Second-Project-E-Commerce/
